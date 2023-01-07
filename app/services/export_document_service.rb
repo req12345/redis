@@ -40,4 +40,3 @@ class ExportDocumentService < DocumentBaseService
     redis.set(ERROR_PREFIX + document_id, error.to_s)
   end
 end
-
